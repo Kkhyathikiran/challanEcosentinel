@@ -1,7 +1,7 @@
 // Dummy user challan info
 const challan = {
   userId: "User123",
-  location: "Jayanagar Bangalore Park",
+  location: "Koramangala 3rd Block",
   status: localStorage.getItem("penaltyStatus") || "Unpaid"
 };
 
@@ -29,3 +29,4 @@ if (userTable) {
   `;
   userTable.appendChild(row);
 }
+
